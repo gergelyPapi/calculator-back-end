@@ -9,16 +9,16 @@ const parse = (csvString) => {
     .map(e => e.trim())
     .map(e => e.split(',').map(e => e.trim()))[0];
     return parsedCsv[parsedCsv.length - 2];
-}
+};
 const corsOptions = {
     origin: 'http://localhost:3000',
     optionsSuccessStatus: 200
-}
+};
 const port = 4200;
 const {
     writeFile,
     readFile
-} = require('fs').promises
+} = require('fs').promises;
 const app = express();
 
 app.use(express.static(__dirname + '/DB'));
