@@ -2,10 +2,10 @@
 
 ## Description
 
-Creating an back-end for calc app for recruitment purposes.
+Creating back-end service for calculator app for recruitment purposes.
 
-### `Calculator`
+### `Details`
 
 - REST API edpoints for solving load/save of results coming from calculator front-end app
 - Local txt file serves as database
-- https://github.com/gergelyPapi/calculator-front-end
+- App: https://github.com/gergelyPapi/calculator-front-end
